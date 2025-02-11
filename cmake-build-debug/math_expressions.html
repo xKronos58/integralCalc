@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.css" integrity="sha384-zh0CIslj+VczCZtlzBcjt5ppRcsAmDnRem7ESsYwWwg3m/OaJ2l4x7YBZl9Kxxib" crossorigin="anonymous">   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/katex.min.js" integrity="sha384-Rma6DA2IPUwhNxmrB/7S3Tno0YY7sFu9WSYMCuulLhIqYSGZ2gKCJWIqhBWqMQfh" crossorigin="anonymous"></script>   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.21/dist/contrib/auto-render.min.js" integrity="sha384-hCXGrW6PitJEwbkoStFjeJxv+fSOOQKOPbJxSfM6G5sWZjAyWhXiTIIAmQqnlLlh" crossorigin="anonymous"
+            onload="renderMathInElement(document.body);"></script></head>
+<body>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll("foreignObject span").forEach(span => {
+            katex.render(span.textContent, span, { throwOnError: false });
+        });
+    });
+</script>\n<svg width="1000" height="500" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject x="20" y="50" width="800" height="70">        <div xmlns="http://www.w3.org/1999/xhtml">            <span class="mathjax">\int^a_b\space f(x) dx=\frac{b-a}{6}[f(a)+4f(\frac{a+b}{2})+f(b)]\\\\</span>
+        </div>
+    </foreignObject>
+    <foreignObject x="20" y="110" width="800" height="70">        <div xmlns="http://www.w3.org/1999/xhtml">            <span class="mathjax">f(x)=\int^{4.000000}_{2.000000}x^3-2*x^2+11*x-1 dx\\\\</span>
+        </div>
+    </foreignObject>
+    <foreignObject x="20" y="170" width="800" height="70">        <div xmlns="http://www.w3.org/1999/xhtml">            <span class="mathjax">\int^a_bf(x)=\frac{-2.000000}{6}\times[4^3-2*4^2+11*4-1+4\times3^3-2*3^2+11*3-12^3-2*2^2+11*2-1]\\\\</span>
+        </div>
+    </foreignObject>
+    <foreignObject x="20" y="230" width="800" height="70">        <div xmlns="http://www.w3.org/1999/xhtml">            <span class="mathjax">\int^a_b f(x)=86.666580\\\\</span>
+        </div>
+    </foreignObject>
+</svg>
+</body>
+</html>

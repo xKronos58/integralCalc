@@ -1,0 +1,7 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+    <text x="20" y="50" font-size="24" font-family="Arial">5 + 7</text>
+    <text x="20" y="90" font-size="24" font-family="Arial">5 - 3</text>
+    <text x="20" y="130" font-size="24" font-family="Arial">2 / 9</text>
+    <text x="20" y="170" font-size="24" font-family="Arial">8 - 6</text>
+    <text x="20" y="210" font-size="24" font-family="Arial">10 / 5</text>
+</svg>
