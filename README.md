@@ -1,0 +1,1 @@
+Using simpsons method of integration approximation this program takes in an integral `f(x)` and outputs the worked solution under `$path_to_env/integralCalc/cmake-build-debug/math_expressions.html` after the program is run refresh the html file and the changes will be made
